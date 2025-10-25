@@ -1,0 +1,10 @@
+scoreList = []
+japanese = int(input('Enter your Japanese score: '))
+math = int(input('Enter your Math score: '))
+english = int(input('Enter your English score: '))
+scoreList.append(japanese)
+scoreList.append(math)
+scoreList.append(english)
+totalScore = sum(scoreList)
+print(scoreList)
+print(totalScore)
